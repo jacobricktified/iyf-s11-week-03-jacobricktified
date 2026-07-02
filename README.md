@@ -1,5 +1,7 @@
 # iyf-s11-week-03-jacobricktified
 
+# this repository contains files and folders from week one in order to do tasks of merging and branching
+
 # Task 5.1 – Terminal Navigation Questions
 
 ## Objective
