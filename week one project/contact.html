@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jacobricktified/iyf-s11-week-02-jacobricktified@main/styles.css">
+    <title>Contact Us</title>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <p>
+          <label for="fullname">Full Name:</label><br />
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Enter your full name"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="email">Email Address:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="phone">Phone Number:</label><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+254 700 123 456"
+          />
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Message Details</legend>
+
+        <p>
+          <label for="subject">Subject:</label><br />
+          <select id="subject" name="subject">
+            <option value="">-- Select a Subject --</option>
+            <option value="general">General Inquiry</option>
+            <option value="support">Technical Support</option>
+            <option value="feedback">Feedback</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="message">Message:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            cols="40"
+            minlength="50"
+            placeholder="Enter your message (minimum 50 characters)"
+            required
+          ></textarea>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <p>
+          <input type="checkbox" id="newsletter" name="newsletter" />
+
+          <label for="newsletter"> Subscribe to our newsletter </label>
+        </p>
+      </fieldset>
+
+      <p>
+        <button type="submit">Submit</button>
+      </p>
+    </form>
+    <h2>Connect With Me</h2>
+
+    <ul>
+      <li><a href="https://github.com/jacobricktified">GitHub</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/jacob-mbuco-39342a394/"
+          >LinkedIn</a
+        >
+      </li>
+      <li><a href="https://x.com/jacobmbuco">X (Twitter)</a></li>
+    </ul>
+
+    <h2>Location</h2>
+    <p>Nairobi, Kenya</p>
+    <p>Timezone: East Africa Time (EAT, UTC+3)</p>
+  </body>
+</html>
